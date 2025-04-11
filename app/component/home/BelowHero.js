@@ -4,15 +4,15 @@ import React from "react";
 
 const BelowHero = () => {
   return (
-    <div className="pt-32 ">
-      <div className=" w-[80%] mx-auto   bg-[#1313138A] overflow-hidden rounded-2xl shadow-2xl  ">
+    <div className="pt-40 " id="about">
+      <div className=" w-[80%] mx-auto   bg-[#1313138A] overflow-hidden rounded-2xl   ">
         <div className=" relative -z-10">
           <div className=" absolute top-[320px] -left-20 w-[10rem] sm:w-[10rem] lg:w-[20rem] h-[20rem] sm:h-[10rem] lg:h-[20rem]  bg-[#2F7EF7] rounded-full blur-[120px]" />
           <div className="absolute top-0 -right-20 w-[15rem] h-[25rem]  bg-[#00FFF2] rounded-full blur-[120px]  " />
         </div>
-        <div className="w-full grid grid-cols-1 lg:grid-cols-2   ">
-          <div className="flex flex-col w-[90%] p-6">
-            <p className=" text-[18px] font-[500] bg-gradient-to-l from-[#00FFF2] to-[#2F7EF7] bg-clip-text text-transparent">
+        <div className="w-full  flex lg:flex-row flex-col items-center    ">
+          <div className="flex flex-col lg:w-[50%]  pl-20 ">
+            <p className=" text-[18px] font-[500] bg-gradient-to-l from-[#00FFF2] to-[#2F7EF7] bg-clip-text text-transparent ">
               Figma ipsum
             </p>
             <h3 className="text-[44px] lg:text-[64px] text-[#FFFFFF]  font-[500]">
@@ -55,8 +55,8 @@ const BelowHero = () => {
               </div>
             </div>
           </div>
-          <div className="hidden  lg:block">
-            <Image src={belowhero} alt="" className="w-[100%] h-full " />
+          <div className="hidden  lg:block w-[60%]">
+            <Image src={belowhero} alt="" className=" " />
           </div>
         </div>
       </div>

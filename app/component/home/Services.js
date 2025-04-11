@@ -12,16 +12,16 @@ import { Service1 } from "@/app/assets/export";
 
 const Services = () => {
   return (
-    <div className="py-12">
+    <div className="py-12 " id="contact">
       <div className="w-full flex flex-col items-center shadow-2xl bg-[#1313138A] py-20 overflow-hidden relative">
         <div className="  -z-10 ">
           <div className=" absolute bottom-0 left-0 w-[10rem] sm:w-[10rem] lg:w-[20rem] h-[20rem] sm:h-[10rem] lg:h-[20rem]  bg-[#2F7EF7] rounded-full blur-[120px]" />
           <div className="absolute top-0 right-0 w-[15rem] h-[25rem]  bg-[#00FFF2] rounded-full blur-[120px]  " />
         </div>
-        <p className="text-[18px] font-[500] bg-gradient-to-l from-[#00FFF2] to-[#2F7EF7] bg-clip-text text-transparent">
+        <p className="text-[18px] font-[500] bg-gradient-to-l from-[#00FFF2] to-[#2F7EF7] bg-clip-text text-transparent leading-[50px]">
           Our Application Service
         </p>
-        <h3 className="text-center  text-[32px]  lg:text-[40px] font-[600] text-[#FFFFFF] leading-[100%]">
+        <h3 className="text-center  text-[32px]  lg:text-[40px] font-[600] text-[#FFFFFF] leading-[50px]">
           Features What Can <br /> Provide for You.
         </h3>
         <div className="w-full px-10 lg:px-28 py-12">

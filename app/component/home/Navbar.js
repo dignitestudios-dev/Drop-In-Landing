@@ -11,19 +11,19 @@ const Navbar = () => {
   const links = [
     {
       name: "Home",
-      url: "/",
+      url: "#",
     },
     {
       name: "About",
-      url: "/about",
+      url: "#about",
     },
     {
       name: "Feature",
-      url: "/feature",
+      url: "#feature",
     },
     {
       name: "Contact Us",
-      url: "/contact",
+      url: "#contact",
     },
   ];
   const [isOpen, setIsopen] = useState(false);
@@ -41,13 +41,21 @@ const Navbar = () => {
         <nav className="w-full flex items-center justify-between gap-11">
           <div className="hidden md:flex justify-center gap-10 w-full ">
             <ul className="flex items-center space-x-10 font-medium text-[#FFFFFF]">
-              <li className="text-[16px] font-[400]">Home</li>
-              <li className="text-[16px] font-[400]">About</li>
+              <li className="text-[16px] cursor-pointer font-[400]">
+                <Link href={"#home"}> Home</Link>
+              </li>
+              <li className="text-[16px] cursor-pointer font-[400]">
+                <Link href={"#about"}>About</Link>
+              </li>
               <li className="text-[16px] font-[400]">
                 <Image src={logo} alt="" className="w-[52px] h-[70px]" />
               </li>
-              <li className="text-[16px] font-[400]">Features</li>
-              <li className="text-[16px] font-[400]">Contact</li>
+              <li className="text-[16px] cursor-pointer font-[400]">
+                <Link href="#feature">Feature</Link>
+              </li>
+              <li className="text-[16px] cursor-pointer font-[400]">
+                <Link href={"#contact"}> contact</Link>
+              </li>
             </ul>
           </div>
           <div className="md:hidden flex justify-between w-full px-7  ">

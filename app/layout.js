@@ -1,9 +1,10 @@
-import {Manrope} from "next/font/google";
+import { Manrope } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Manrope({
-  variable: "--font-geist-sans",
+const manrope = Manrope({
   subsets: ["latin"],
+  display: "swap",
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata = {
@@ -14,11 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable}  antialiased`}
-      >
-        {children}
-      </body>
+      <body className={manrope.className + " antialiased"}>{children}</body>
     </html>
   );
 }
