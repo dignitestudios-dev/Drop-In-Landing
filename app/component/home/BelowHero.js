@@ -11,7 +11,7 @@ const BelowHero = () => {
           <div className="absolute top-0 -right-20 w-[15rem] h-[25rem]  bg-[#00FFF2] rounded-full blur-[120px]  " />
         </div>
         <div className="w-full  flex lg:flex-row flex-col items-center    ">
-          <div className="flex flex-col lg:w-[50%]  pl-20 ">
+          <div className="flex flex-col lg:w-[50%]  pl-20   ">
             <p className=" text-[18px] font-[500] bg-gradient-to-l from-[#00FFF2] to-[#2F7EF7] bg-clip-text text-transparent ">
               Figma ipsum
             </p>
@@ -65,3 +65,8 @@ const BelowHero = () => {
 };
 
 export default BelowHero;
+  
+
+
+
+
