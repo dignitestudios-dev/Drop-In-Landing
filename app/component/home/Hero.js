@@ -16,17 +16,17 @@ const Hero = () => {
         />
       </div>
       <div className="flex flex-col  absolute top-20  justify-center px-6">
-        <h2 className="text-white text-[44px] lg:text-[65px] font-[500] lg:leading-[70px] text-center ">
-          Figma Ipsum Component <br />
+        <h2 className="text-white text-[44px] lg:text-[65px] font-[500] lg:leading-[50px] text-center ">
+          Boredom Ends Where
+          <br />
           <span className="bg-gradient-to-l from-[#00FFF2] to-[#2F7EF7] bg-clip-text text-transparent lg:leading-[102px]">
-            Figma Ipsum
+            Spontaneity Begins
           </span>
         </h2>
         <p className="text-[16px] font-[400] text-[#D6D6D6] lg:w-[50%] mx-auto text-center">
-          Figma ipsum component variant main layer. Stroke boolean rectangle
-          comment share mask arrow main. Pixel fill pencil line arrange auto.
-          Move connection subtract union union bold arrange reesizing pixel
-          slice. Rotate.
+        This isn't a dating app, just real people, doing real things- together
+Find real-time events, meet new people, make memories — all with just one tap. Drop In makes it easy to connect through spontaneous hangouts happening near you.
+
         </p>
       </div>
       <Image

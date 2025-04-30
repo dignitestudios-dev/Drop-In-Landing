@@ -12,17 +12,13 @@ const BelowHero = () => {
         </div>
         <div className="w-full  flex lg:flex-row flex-col items-center    ">
           <div className="flex flex-col lg:w-[50%]  pl-20   ">
-            <p className=" text-[18px] font-[500] bg-gradient-to-l from-[#00FFF2] to-[#2F7EF7] bg-clip-text text-transparent ">
-              Figma ipsum
-            </p>
-            <h3 className="text-[44px] lg:text-[64px] text-[#FFFFFF]  font-[500]">
-              Figma ipsum{" "}
+            <h3 className=" text-[44px] font-[500] bg-gradient-to-l from-[#00FFF2] to-[#2F7EF7] bg-clip-text text-transparent leading-[60.15px]">
+              Don't just be the{" "}
+              <span className="text-[#FFFFFF]">spectator, be the spark. </span>
             </h3>
-            <p className="text-[16px] text-[#D6D6D6]  font-[400]">
-              Figma ipsum component variant main layer. Stroke boolean rectangle
-              comment share mask arrow main. Pixel fill pencil line arrange
-              auto. Move connection subtract union union bold arrange reesizing
-              pixel slice. Rotate.
+            <p className="text-[16px] text-[#D6D6D6] pt-2.5  font-[400]">
+              Drop In lets you find or create real-time experiences that bring
+              people together — anytime, anywhere.
             </p>
             <div className="flex flex-col gap-5 pt-4">
               <div className="flex items-center p-6  shadow-2xl rounded-2xl gap-4 bg-[#FFFFFF0D]">
@@ -65,8 +61,3 @@ const BelowHero = () => {
 };
 
 export default BelowHero;
-  
-
-
-
-

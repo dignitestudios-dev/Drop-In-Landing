@@ -25,6 +25,7 @@ const Navbar = () => {
       name: "Contact Us",
       url: "#contact",
     },
+    4,
   ];
   const [isOpen, setIsopen] = useState(false);
   const toggle = () => {
@@ -54,7 +55,7 @@ const Navbar = () => {
                 <Link href="#feature">Feature</Link>
               </li>
               <li className="text-[16px] cursor-pointer font-[400]">
-                <Link href={"#contact"}> contact</Link>
+                <Link href={"#contact"}> Contact</Link>
               </li>
             </ul>
           </div>

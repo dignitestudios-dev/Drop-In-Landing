@@ -9,27 +9,17 @@ const Feature = () => {
         <div className="flex justify-center ">
           <Image src={feature} alt="" className="w-[520px] h-[576px]" />
         </div>
-        <div className="flex flex-col lg:items-start items-center px-6 lg:text-start text-center ">
-          <p className=" text-[18px] font-[500] bg-gradient-to-l from-[#00FFF2] to-[#2F7EF7] bg-clip-text text-transparent leading-[50px]">
-            Figma ipsum
-          </p>
-          <h3 className="text-[30px] md:text-[40px] text-[#FFFFFF]  font-[600] leading-[50px]">
-            Figma ipsum component
+        <div className="flex flex-col lg:items-start items-center px-6 lg:text-start text-center gap-6">
+          <h3 className="text-[30px] md:text-[40px] bg-gradient-to-l from-[#00FFF2] to-[#2F7EF7] bg-clip-text text-transparent font-[600] leading-[50px]">
+            Build communities around <br />
+            <span className="text-[#D6D6D6]">
+              who you are and what
+              <br /> you love.
+            </span>
           </h3>
-          <h3 className="text-[30px] md:text-[40px] bg-gradient-to-l from-[#00FFF2] to-[#2F7EF7] bg-clip-text text-transparent font-[600] leading-[70px]">
-            Figma ipsum{" "}
-          </h3>
-          <p className="text-[16px] text-[#D6D6D6]  font-[400]">
-            Figma ipsum component variant main layer. Stroke boolean rectangle
-            comment share mask arrow main. Pixel fill pencil line arrange auto.
-            Move connection subtract union union bold arrange reesizing pixel
-            slice. Rotate.
-          </p>
-          <p className="text-[16px] text-[#D6D6D6] pt-3.5  font-[400]">
-            Figma ipsum component variant main layer. Stroke boolean rectangle
-            comment share mask arrow main. Pixel fill pencil line arrange auto.
-            Move connection subtract union union bold arrange reesizing pixel
-            slice. Rotate.
+          <p className="text-[16px] text-[#D6D6D6] pt- font-[400]">
+            There are groups for your school, city, or passion and if not <br/> Drop
+            In helps you create them.
           </p>
         </div>
       </div>
