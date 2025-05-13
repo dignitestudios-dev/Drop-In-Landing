@@ -52,13 +52,10 @@ const Footer = () => {
             </h3>
             <ul className="flex flex-col gap-5">
               <li className="text-[14px] text-[#FFFFFF]  font-[400]">
-                support@dropin.com
+                dropincorporated95@gmail.com
               </li>
               <li className="text-[14px] text-[#FFFFFF]  font-[400]">
-                +1 (123) 456-7890
-              </li>
-              <li className="text-[14px] text-[#FFFFFF]  font-[400]">
-                5053 Kiehn Junctions, Corpus Christi 19197
+                305 Webster Ave #103Cambridge, MA 02139
               </li>
             </ul>
           </div>
