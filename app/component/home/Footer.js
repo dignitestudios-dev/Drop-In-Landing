@@ -66,8 +66,8 @@ const Footer = () => {
               Download the App
             </h3>
             <p className="text-[14px] leading-[20px] font-[400]  text-[#FFFFFF]">
-              Figma ipsum component variant main layer. Underline draft outline
-              frame.
+              Tap in. Drop in. It all starts with a download.
+
             </p>
             <Image src={appstore} alt="" className="w-[171px] h-[113px]" />
           </div>
