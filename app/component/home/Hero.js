@@ -24,15 +24,16 @@ const Hero = () => {
           </span>
         </h2>
         <p className="text-[16px] font-[400] text-[#D6D6D6] lg:w-[50%] mx-auto text-center">
-        This isn't a dating app, just real people, doing real things- together
-Find real-time events, meet new people, make memories — all with just one tap. Drop In makes it easy to connect through spontaneous hangouts happening near you.
-
+          This isn't a dating app, just real people, doing real things- together
+          Find real-time events, meet new people, make memories — all with just
+          one tap. Drop In makes it easy to connect through spontaneous hangouts
+          happening near you.
         </p>
       </div>
       <Image
         src={heroimg}
         alt=""
-        className="w-[450px] md:w-[700px] lg:w-[1013px] absolute -bottom-48 z-0 h-[410px] lg:h-[610px] text-center"
+        className="w-[450px] md:w-[700px] lg:w-[1013px] absolute -bottom-32  lg:-bottom-72 xl:-bottom-48 z-0 h-[410px] lg:h-[610px] text-center"
       />
     </div>
   );

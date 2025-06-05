@@ -24,19 +24,22 @@ const Services = () => {
         <h3 className="text-center  text-[32px]  lg:text-[40px] font-[600] text-[#FFFFFF] leading-[50px]">
           Features What Can <br /> Provide for You.
         </h3>
-        <div className="w-full px-10 lg:px-28 py-12">
+        <div className="w-full px-10 lg:px-22 py-12">
           <Swiper
-            slidesPerView={1}
+            slidesPerView={4}
             pagination={{ clickable: true }}
             autoplay={{ delay: 3000 }}
             loop={true}
             modules={[Pagination, Autoplay]}
-            className="mySwiper h-80 lg:h-64 "
-            breakpoints={{
-              1024: {
-                slidesPerView: 3,
-              },
-            }}
+            className="mySwiper h-80 lg:h-64  "
+            // breakpoints={{
+            //   1024: {
+            //     slidesPerView: 1,
+            //   },
+            //   768: {
+            //     slidesPerView: 1,
+            //   },
+            // }}
           >
             <SwiperSlide className="w-full lg:!w-[35%] flex flex-col items-center justify-center text-center space-y-3 lg:px-12 ">
               <div className=" flex items-center  justify-center">
@@ -44,11 +47,11 @@ const Services = () => {
               </div>
               <div className="space-y-3">
                 <p className="text-[24px] font-[600] text-[#FFFFFF]">
-                  Figma ipsum component
+                  Map-Based Event Discovery
                 </p>
                 <p className="text-[16px] font-[400] text-[#D6D6D6]">
-                  Figma ipsum component variant main layer. Device vertical
-                  effect outline fill. Library frame prototype asset.
+                  See what’s happening around you in real-time with an
+                  interactive map view.
                 </p>
               </div>
             </SwiperSlide>
@@ -58,11 +61,11 @@ const Services = () => {
               </div>
               <div className="space-y-3">
                 <p className="text-[24px] font-[600] text-[#FFFFFF]">
-                  Figma ipsum component
+                  Personalized Event Categories
                 </p>
                 <p className="text-[16px] font-[400] text-[#D6D6D6]">
-                  Figma ipsum component variant main layer. Device vertical
-                  effect outline fill. Library frame prototype asset.
+                  Explore events based on your interests with custom tags and
+                  smart suggestions.
                 </p>
               </div>
             </SwiperSlide>
@@ -76,11 +79,11 @@ const Services = () => {
               </div>
               <div className="space-y-3">
                 <p className="text-[24px] font-[600] text-[#FFFFFF]">
-                  Figma ipsum component
+                  Private & Public Event Options
                 </p>
                 <p className="text-[16px] font-[400] text-[#D6D6D6]">
-                  Figma ipsum component variant main layer. Device vertical
-                  effect outline fill. Library frame prototype asset.
+                  Choose to share your event with everyone — or just your
+                  circle.
                 </p>
               </div>
             </SwiperSlide>
@@ -94,11 +97,147 @@ const Services = () => {
               </div>
               <div className="space-y-3">
                 <p className="text-[24px] font-[600] text-[#FFFFFF]">
-                  Figma ipsum component
+                  Live Location Integration
                 </p>
                 <p className="text-[16px] font-[400] text-[#D6D6D6]">
-                  Figma ipsum component variant main layer. Device vertical
-                  effect outline fill. Library frame prototype asset.
+                  Navigate to events easily with real-time location updates and
+                  directions.
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="w-full lg:!w-[35%] flex flex-col items-center justify-center text-center space-y-3 lg:px-12 ">
+              <div className=" flex items-center  justify-center">
+                <Image src={Service1} alt="" className="w-[90px] h-[90px] " />
+              </div>
+              <div className="space-y-3">
+                <p className="text-[24px] font-[600] text-[#FFFFFF]">
+                  Smart Notifications
+                </p>
+                <p className="text-[16px] font-[400] text-[#D6D6D6]">
+                  Get instant alerts for new events that match your vibe and
+                  location.
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="w-full lg:!w-[35%] flex flex-col items-center justify-center text-center space-y-3 lg:px-12 ">
+              <div className=" flex items-center  justify-center">
+                <Image src={Service1} alt="" className="w-[90px] h-[90px]" />
+              </div>
+              <div className="space-y-3">
+                <p className="text-[24px] font-[600] text-[#FFFFFF]">
+                  Dynamic Event Visibility
+                </p>
+                <p className="text-[16px] font-[400] text-[#D6D6D6]">
+                  See what’s near you with radius-based visibility and list view
+                  alternatives.
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="w-full lg:!w-[35%] flex flex-col items-center justify-center text-center space-y-3 lg:px-12 ">
+              <div className=" flex items-center  justify-center">
+                <Image
+                  src={Service1}
+                  alt=""
+                  className="w-[90px] h-[90px] object-contain !flex items-end justify-end"
+                />
+              </div>
+              <div className="space-y-3">
+                <p className="text-[24px] font-[600] text-[#FFFFFF]">
+                  Detailed Event Previews
+                </p>
+                <p className="text-[16px] font-[400] text-[#D6D6D6]">
+                  Tap on a map pin to dive into full event details and RSVP
+                  instantly.
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="w-full lg:!w-[35%] flex flex-col items-center justify-center text-center space-y-3 lg:px-12 ">
+              <div className=" flex items-center  justify-center">
+                <Image
+                  src={Service1}
+                  alt=""
+                  className="w-[90px] h-[90px] object-contain !flex items-end justify-end"
+                />
+              </div>
+              <div className="space-y-3">
+                <p className="text-[24px] font-[600] text-[#FFFFFF]">
+                  RSVP & Real-Time Chat Rooms
+                </p>
+                <p className="text-[16px] font-[400] text-[#D6D6D6]">
+                  Join the conversation — RSVP to unlock exclusive event chat
+                  access.
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="w-full lg:!w-[35%] flex flex-col items-center justify-center text-center space-y-3 lg:px-12 ">
+              <div className=" flex items-center  justify-center">
+                <Image
+                  src={Service1}
+                  alt=""
+                  className="w-[90px] h-[90px] object-contain !flex items-end justify-end"
+                />
+              </div>
+              <div className="space-y-3">
+                <p className="text-[24px] font-[600] text-[#FFFFFF]">
+                  Event Popularity & Feedback
+                </p>
+                <p className="text-[16px] font-[400] text-[#D6D6D6]">
+                  See what’s trending by RSVPs and share your thoughts
+                  post-event.
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="w-full lg:!w-[35%] flex flex-col items-center justify-center text-center space-y-3 lg:px-12 ">
+              <div className=" flex items-center  justify-center">
+                <Image
+                  src={Service1}
+                  alt=""
+                  className="w-[90px] h-[90px] object-contain !flex items-end justify-end"
+                />
+              </div>
+              <div className="space-y-3">
+                <p className="text-[24px] font-[600] text-[#FFFFFF]">
+                  Flexible Event Controls
+                </p>
+                <p className="text-[16px] font-[400] text-[#D6D6D6]">
+                  Set slots, manage reschedules, and send emergency updates when
+                  needed.
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="w-full lg:!w-[35%] flex flex-col items-center justify-center text-center space-y-3 lg:px-12 ">
+              <div className=" flex items-center  justify-center">
+                <Image
+                  src={Service1}
+                  alt=""
+                  className="w-[90px] h-[90px] object-contain !flex items-end justify-end"
+                />
+              </div>
+              <div className="space-y-3">
+                <p className="text-[24px] font-[600] text-[#FFFFFF]">
+                  Advanced Filters & Featured Events
+                </p>
+                <p className="text-[16px] font-[400] text-[#D6D6D6]">
+                  Find events fast with city/state filters and spot featured
+                  ones on the map.
+                </p>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="w-full lg:!w-[35%] flex flex-col items-center justify-center text-center space-y-3 lg:px-12 ">
+              <div className=" flex items-center  justify-center">
+                <Image
+                  src={Service1}
+                  alt=""
+                  className="w-[90px] h-[90px] object-contain !flex items-end justify-end"
+                />
+              </div>
+              <div className="space-y-3">
+                <p className="text-[24px] font-[600] text-[#FFFFFF]">
+                  Admin Tools & Emergency Support
+                </p>
+                <p className="text-[16px] font-[400] text-[#D6D6D6]">
+                  Keep things safe and running with reporting, alerts, and
+                  direct admin chat.
                 </p>
               </div>
             </SwiperSlide>

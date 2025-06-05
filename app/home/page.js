@@ -21,7 +21,6 @@ const Home = () => {
       <BelowHero />
       <Feature />
       <Services />
-      <FeedBack />
       <BelowFeedBack />
       <Faqs />
       <Footer />

@@ -43,19 +43,19 @@ const Navbar = () => {
           <div className="hidden md:flex justify-center gap-10 w-full ">
             <ul className="flex items-center space-x-10 font-medium text-[#FFFFFF]">
               <li className="text-[16px] cursor-pointer font-[400]">
-                <Link href={"#home"}> Home</Link>
+                <Link href={"/home"}> Home</Link>
               </li>
               <li className="text-[16px] cursor-pointer font-[400]">
-                <Link href={"#about"}>About</Link>
+                <Link href={"/home#about"}>About</Link>
               </li>
               <li className="text-[16px] font-[400]">
                 <Image src={logo} alt="" className="w-[52px] h-[70px]" />
               </li>
               <li className="text-[16px] cursor-pointer font-[400]">
-                <Link href="#feature">Feature</Link>
+                <Link href="/home#feature">Feature</Link>
               </li>
               <li className="text-[16px] cursor-pointer font-[400]">
-                <Link href={"#contact"}> Contact</Link>
+                <Link href={"/home#contact"}> Contact</Link>
               </li>
             </ul>
           </div>

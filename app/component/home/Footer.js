@@ -7,6 +7,7 @@ import {
   twiter,
 } from "@/app/assets/export";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -75,9 +76,15 @@ const Footer = () => {
           <p className="text-[14px] text-[#FFFFFF] font-[400]">
             © 2025 Drop In. All rights reserved.
           </p>
-          <p className="text-[14px] text-[#FFFFFF] font-[400] ">
-            privacy Policy <span>Terms & Conditions</span>
-          </p>
+          <div className="flex text-white gap-3">
+            <Link
+              href={"/privacy"}
+              className="text-[14px]  text-[#FFFFFF] font-[400] "
+            >
+              Privacy Policy
+            </Link>
+            <Link href={"/Terms"}>Terms & Conditions</Link>
+          </div>
         </div>
       </div>
     </div>
