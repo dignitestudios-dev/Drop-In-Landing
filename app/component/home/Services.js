@@ -8,7 +8,20 @@ import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import Image from "next/image";
-import { Service1 } from "@/app/assets/export";
+import {
+  icon1,
+  icon10,
+  icon11,
+  icon12,
+  icon2,
+  icon3,
+  icon4,
+  icon5,
+  icon6,
+  icon7,
+  icon8,
+  icon9,
+} from "@/app/assets/export";
 
 const Services = () => {
   return (
@@ -24,26 +37,26 @@ const Services = () => {
         <h3 className="text-center  text-[32px]  lg:text-[40px] font-[600] text-[#FFFFFF] leading-[50px]">
           Features What Can <br /> Provide for You.
         </h3>
-        <div className="w-full px-10 lg:px-22 py-12">
+        <div className="w-full px-10 lg:px-28 py-12">
           <Swiper
-            slidesPerView={4}
+            slidesPerView={1} // Default for mobile
             pagination={{ clickable: true }}
             autoplay={{ delay: 3000 }}
             loop={true}
             modules={[Pagination, Autoplay]}
-            className="mySwiper h-80 lg:h-64  "
-            // breakpoints={{
-            //   1024: {
-            //     slidesPerView: 1,
-            //   },
-            //   768: {
-            //     slidesPerView: 1,
-            //   },
-            // }}
+            className="h-80 lg:h-64"
+            breakpoints={{
+              768: {
+                slidesPerView: 1, // Tablet
+              },
+              1024: {
+                slidesPerView: 3, // Desktop
+              },
+            }}
           >
             <SwiperSlide className="w-full lg:!w-[35%] flex flex-col items-center justify-center text-center space-y-3 lg:px-12 ">
               <div className=" flex items-center  justify-center">
-                <Image src={Service1} alt="" className="w-[90px] h-[90px] " />
+                <Image src={icon1} alt="" className="w-[90px] h-[90px] " />
               </div>
               <div className="space-y-3">
                 <p className="text-[24px] font-[600] text-[#FFFFFF]">
@@ -57,7 +70,7 @@ const Services = () => {
             </SwiperSlide>
             <SwiperSlide className="w-full lg:!w-[35%] flex flex-col items-center justify-center text-center space-y-3 lg:px-12 ">
               <div className=" flex items-center  justify-center">
-                <Image src={Service1} alt="" className="w-[90px] h-[90px]" />
+                <Image src={icon2} alt="" className="w-[90px] h-[90px]" />
               </div>
               <div className="space-y-3">
                 <p className="text-[24px] font-[600] text-[#FFFFFF]">
@@ -72,7 +85,7 @@ const Services = () => {
             <SwiperSlide className="w-full lg:!w-[35%] flex flex-col items-center justify-center text-center space-y-3 lg:px-12 ">
               <div className=" flex items-center  justify-center">
                 <Image
-                  src={Service1}
+                  src={icon3}
                   alt=""
                   className="w-[90px] h-[90px] object-contain !flex items-end justify-end"
                 />
@@ -90,7 +103,7 @@ const Services = () => {
             <SwiperSlide className="w-full lg:!w-[35%] flex flex-col items-center justify-center text-center space-y-3 lg:px-12 ">
               <div className=" flex items-center  justify-center">
                 <Image
-                  src={Service1}
+                  src={icon4}
                   alt=""
                   className="w-[90px] h-[90px] object-contain !flex items-end justify-end"
                 />
@@ -107,7 +120,7 @@ const Services = () => {
             </SwiperSlide>
             <SwiperSlide className="w-full lg:!w-[35%] flex flex-col items-center justify-center text-center space-y-3 lg:px-12 ">
               <div className=" flex items-center  justify-center">
-                <Image src={Service1} alt="" className="w-[90px] h-[90px] " />
+                <Image src={icon5} alt="" className="w-[90px] h-[90px] " />
               </div>
               <div className="space-y-3">
                 <p className="text-[24px] font-[600] text-[#FFFFFF]">
@@ -121,7 +134,7 @@ const Services = () => {
             </SwiperSlide>
             <SwiperSlide className="w-full lg:!w-[35%] flex flex-col items-center justify-center text-center space-y-3 lg:px-12 ">
               <div className=" flex items-center  justify-center">
-                <Image src={Service1} alt="" className="w-[90px] h-[90px]" />
+                <Image src={icon6} alt="" className="w-[90px] h-[90px]" />
               </div>
               <div className="space-y-3">
                 <p className="text-[24px] font-[600] text-[#FFFFFF]">
@@ -136,7 +149,7 @@ const Services = () => {
             <SwiperSlide className="w-full lg:!w-[35%] flex flex-col items-center justify-center text-center space-y-3 lg:px-12 ">
               <div className=" flex items-center  justify-center">
                 <Image
-                  src={Service1}
+                  src={icon7}
                   alt=""
                   className="w-[90px] h-[90px] object-contain !flex items-end justify-end"
                 />
@@ -154,7 +167,7 @@ const Services = () => {
             <SwiperSlide className="w-full lg:!w-[35%] flex flex-col items-center justify-center text-center space-y-3 lg:px-12 ">
               <div className=" flex items-center  justify-center">
                 <Image
-                  src={Service1}
+                  src={icon8}
                   alt=""
                   className="w-[90px] h-[90px] object-contain !flex items-end justify-end"
                 />
@@ -172,7 +185,7 @@ const Services = () => {
             <SwiperSlide className="w-full lg:!w-[35%] flex flex-col items-center justify-center text-center space-y-3 lg:px-12 ">
               <div className=" flex items-center  justify-center">
                 <Image
-                  src={Service1}
+                  src={icon9}
                   alt=""
                   className="w-[90px] h-[90px] object-contain !flex items-end justify-end"
                 />
@@ -190,7 +203,7 @@ const Services = () => {
             <SwiperSlide className="w-full lg:!w-[35%] flex flex-col items-center justify-center text-center space-y-3 lg:px-12 ">
               <div className=" flex items-center  justify-center">
                 <Image
-                  src={Service1}
+                  src={icon10}
                   alt=""
                   className="w-[90px] h-[90px] object-contain !flex items-end justify-end"
                 />
@@ -208,7 +221,7 @@ const Services = () => {
             <SwiperSlide className="w-full lg:!w-[35%] flex flex-col items-center justify-center text-center space-y-3 lg:px-12 ">
               <div className=" flex items-center  justify-center">
                 <Image
-                  src={Service1}
+                  src={icon11}
                   alt=""
                   className="w-[90px] h-[90px] object-contain !flex items-end justify-end"
                 />
@@ -226,7 +239,7 @@ const Services = () => {
             <SwiperSlide className="w-full lg:!w-[35%] flex flex-col items-center justify-center text-center space-y-3 lg:px-12 ">
               <div className=" flex items-center  justify-center">
                 <Image
-                  src={Service1}
+                  src={icon12}
                   alt=""
                   className="w-[90px] h-[90px] object-contain !flex items-end justify-end"
                 />
