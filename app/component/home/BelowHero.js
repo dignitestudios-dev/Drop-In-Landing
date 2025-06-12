@@ -4,7 +4,7 @@ import React from "react";
 
 const BelowHero = () => {
   return (
-    <div className="pt-40 " id="about">
+    <div className="pt-20 lg:pt-48 " id="about">
       <div className=" w-[80%] mx-auto   bg-[#1313138A] overflow-hidden rounded-2xl   ">
         <div className=" relative -z-10">
           <div className=" absolute top-[320px] -left-20 w-[10rem] sm:w-[10rem] lg:w-[20rem] h-[20rem] sm:h-[10rem] lg:h-[20rem]  bg-[#2F7EF7] rounded-full blur-[120px]" />

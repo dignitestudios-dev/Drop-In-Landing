@@ -15,11 +15,11 @@ const Hero = () => {
           className="absolute w-full mx-auto h-[341px] top-20 "
         />
       </div>
-      <div className="flex flex-col  absolute top-20  justify-center px-6">
-        <h2 className="text-white text-[44px] lg:text-[65px] font-[500] lg:leading-[50px] text-center ">
+      <div className="flex flex-col gap-5  absolute top-20  justify-center px-6">
+        <h2 className="text-white text-[44px] lg:text-[65px] font-[500] leading-[50px] text-center lg:leading-[82px]">
           Boredom Ends Where
           <br />
-          <span className="bg-gradient-to-l from-[#00FFF2] to-[#2F7EF7] bg-clip-text text-transparent lg:leading-[102px]">
+          <span className="bg-gradient-to-l from-[#00FFF2] to-[#2F7EF7] bg-clip-text text-transparent ">
             Spontaneity Begins
           </span>
         </h2>
@@ -33,7 +33,7 @@ const Hero = () => {
       <Image
         src={heroimg}
         alt=""
-        className="w-[450px] md:w-[700px] lg:w-[1013px] absolute -bottom-32  lg:-bottom-72 xl:-bottom-48 z-0 h-[410px] lg:h-[610px] text-center"
+        className="w-[450px] md:w-[740px] lg:w-[913px] absolute -bottom-44 md:-bottom-32  lg:-bottom-72 xl:-bottom-60 z-0 h-[400px] lg:h-[550px] text-center"
       />
     </div>
   );

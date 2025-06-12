@@ -51,17 +51,17 @@ const Faqs = () => {
   return (
     <div>
       <div className="p-7 xl:p-22" id="contactus">
-        <div className="w-full contact h-[487px] flex flex-col lg:flex-row items-center relative px-7 bg-[#1313138A] border-[1px] border-[#212121] rounded-[30px]">
+        <div className="w-full contact h-full  flex flex-col lg:flex-row items-center j relative px-7 bg-[#1313138A] border-[1px] border-[#212121] rounded-[30px]">
           <div className="w-[50%] relative h-full xl:block hidden">
             <Image
               src={mobile2}
               alt="Contact Illustration"
-              className="w-[400px] mx-auto absolute bottom-0 right-30"
+              className="w-[400px] mx-auto "
             />
           </div>
 
           <div className="w-full flex flex-col xl:w-[50%] py-10">
-            <p className=" text-[44px] font-[500] bg-gradient-to-l from-[#00FFF2] to-[#2F7EF7] bg-clip-text text-transparent leading-[60.15px]">
+            <p className=" md:text-[44px]   text-[32px] font-[500] bg-gradient-to-l from-[#00FFF2] to-[#2F7EF7] bg-clip-text text-transparent leading-[0.15px] md:leading-[60.15px]">
               Got Questions? <br />{" "}
               <span className="text-[#FFFFFF]">We’ve Got Answers!</span>
             </p>
