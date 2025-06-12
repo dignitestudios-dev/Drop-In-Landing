@@ -1,0 +1,6 @@
+[{ "relation": ["delegate_permission/common.handle_all_urls"], "target": { "namespace": "android_app", "package_name": "com.dignitestudios.drop_in", "sha256_cert_fingerprints": 
+    [
+"83:8C:46:87:05:A1:2A:EB:77:40:A5:29:86:63:26:B7:D7:EC:52:9D:0C:52:A3:04:00:9F:8A:90:75:9E:C6:59",
+"E0:64:1D:7E:2A:78:32:2A:46:27:FA:F1:9F:D7:AE:9B:A0:6B:5B:59:C0:58:08:1B:13:50:2F:59:A5:C1:A8:A9"]
+  }
+}]
