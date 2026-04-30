@@ -67,7 +67,6 @@ const Footer = () => {
             </h3>
             <p className="text-[14px] leading-[20px] font-[400]  text-[#FFFFFF]">
               Tap in. Drop in. It all starts with a download.
-
             </p>
             <Image src={appstore} alt="" className="w-[171px] h-[113px]" />
           </div>
@@ -78,12 +77,23 @@ const Footer = () => {
           </p>
           <div className="flex text-white gap-3">
             <Link
+              href={"/child-safety-policy"}
+              className="text-[14px]  text-[#FFFFFF] font-[400] "
+            >
+              Child Safety Policy
+            </Link>
+            <Link
               href={"/privacy"}
               className="text-[14px]  text-[#FFFFFF] font-[400] "
             >
               Privacy Policy
             </Link>
-            <Link href={"/Terms"}>Terms & Conditions</Link>
+            <Link
+              href={"/Terms"}
+              className="text-[14px]  text-[#FFFFFF] font-[400] "
+            >
+              Terms & Conditions
+            </Link>
           </div>
         </div>
       </div>
